@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>travel website</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+    <nav class="navbar bg-dark">
+        <div class="container">
+           <!-- fo r create a logo for ur website...we use any img or text -->
+           <h1 class="logo lg-heading text-light">VNS Tour</h1>
+           <ul class="nav-items upper">
+               <!-- we want to add link as a unorderd element that's why use <a> tag -->
+
+                 <li class="nav-item"><a href="./index.html" class="">Home</a></li>
+                 <li class="nav-item"><a href="./food.html">Food</a></li>
+                 <li class="nav-item"><a href="./about.html">about</a></li>
+                 <li class="nav-item"><a href="https://maps.google.com">search</a></li>
+                 <li class="nav-item"><a href="./contact.html">contact</a></li>
+                 
+                <!-- now we style our html code -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ########### this is code of contect section ############## -->
+    <section class="contact-form">
+        <div class="container">
+            <div class="form-wrapper">
+                 <div class="company-address">
+                     <div class="address-group">
+                        <i class="fa-solid fa-location-dot fa-1.5x text-red"></i>
+                        <h1 class="md-heading display">Location</h1>
+                        <p>Ravindrapuri colony,Varanasi 221005</p>
+                     </div>
+
+                     <div class="address-group">
+                         <!-- <i class="fa-solid fa-envelope"></i> -->
+                      <i class="fa-solid fa-square-envelope fa-1x text-red"></i>
+                      <h1 class="md-heading"> e-mail</h1>
+                      <p class="text-gray">kabilkrishna3299@mycompany.com</p>
+
+                     </div>
+                    
+                      <div class="address-group">
+                        <i class="fa-solid fa-square-phone fa-1x text-red"></i>
+                        <h1 class="md-heading">call</h1>
+                        <p class="text-gray">9517284704</p>  
+                      </div>
+
+                      <img src="./img/company-img.jpg" alt="">
+                    </div>
+           <div>
+               <!-- ########### form ######################## -->
+                <form action="" class="form">
+                   <h1 class="lg-heading text-red about-heading">Contact US</h1>
+                   <p class="text-gray">Krishna Tours and Travels (Travel agency) is located in Varanasi, Uttar Pradesh , India. Nearby area or landmark is Ravindrapuri park. Address of Krishna Tours and Travels : Ravindra puri colony, Varanasi 221005, India.
+                    
+                   </p>
+                  <!-- WE MAKE 4 div to for username,....from this we can give space to our element  -->
+                   <div class="form-group">
+                      <!-- this is box for username -->
+                      <label for="username">Username</label>
+                      <input type="text" name="" id="username" required>
+                      <!-- which is written in "for" write also in "id" -->
+                   </div>
+                   <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" name="" id="email" required>
+                   </div>
+                   <div class="form-group">
+                      <label for="phone">Phone</label>
+                      <input type="text" name="" id="phone" required>
+                   </div>
+                   <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea name="" id="message" ></textarea>
+                   </div>
+
+                   <button type="submit" class="form-btn">Submit</button>
+                </form>
+           </div>
+                 
+            </div>
+        </div>
+    </section>
+   
+     <!-- for footer we use "footer" tag -->
+     <footer class="footer">
+        <div class="social-media-links">
+            <i class="fa-brands fa-facebook-square fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <!-- <i class="fa-brands fa-instagram"></i> -->
+            <i class="fa-brands fa-instagram-square fa-2x"></i>
+        </div>
+        <p>Varanasi Travel &copy;2022 , All Rights Reserved</p>
+    </footer>
+</body>
+</html>
